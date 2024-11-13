@@ -20,6 +20,12 @@ require("lazy").setup({
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- add Tabnine
     { "codota/tabnine-nvim", build = "./dl_binaries.sh" },
+
+    { import = "lazyvim.plugins.extras.lang.typescript" },
+    { import = "lazyvim.plugins.extras.lang.python" },
+    { import = "lazyvim.plugins.extras.lang.php" },
+    { import = "lazyvim.plugins.extras.lang.json" },
+    --{ import = "lazyvim.plugins.extras.io.mini-animate" },
     { import = "plugins" },
     {
       "christoomey/vim-tmux-navigator",
