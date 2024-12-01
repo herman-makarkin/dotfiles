@@ -4,7 +4,7 @@ input  = ["KEY_CAPSLOCK"]
 output = ["KEY_ESC"]
 
 [[remap]]
-input  = ["KEY_MENU"]
+input  = ["KEY_LEFTMETA"]
 output = ["KEY_LEFTCTRL"]
 
 [[remap]]
