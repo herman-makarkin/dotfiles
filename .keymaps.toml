@@ -1,0 +1,12 @@
+device_name = "Logitech K400 Plus"
+[[remap]]
+input  = ["KEY_CAPSLOCK"]
+output = ["KEY_ESC"]
+
+[[remap]]
+input  = ["KEY_MENU"]
+output = ["KEY_LEFTCTRL"]
+
+[[remap]]
+input  = ["KEY_ESC"]
+output = ["KEY_CAPSLOCK"]
